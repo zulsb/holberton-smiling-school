@@ -1,0 +1,112 @@
+body,
+html {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+/** Icons fonts =========== */
+
+@font-face {
+	font-family: 'holberton_school-icon';
+	src: url('fonts/holberton_school-icon.eot?sq4eq4');
+	src: url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+		url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+		url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+		url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
+	font-family: 'holberton_school-icon' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/** Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-menu:before {
+	content: "\e911";
+	font-size: 2rem;
+}
+
+/** Links =========== */
+
+a:hover {
+	color: #C271FF !important;
+}
+
+/** Buttons =========== */
+
+.btn-radius {
+	background-color: #C271FF;
+	border: none;
+	font-size: 0.8rem;
+	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn-radius:hover,
+.btn-radius:focus,
+.btn-radius:active {
+	color: #ffffff !important;
+	background-color: #C271FF !important;
+	opacity: 0.9 !important;
+}
+
+/** General =========== */
+
+.bg {
+	background-image: url("./images/pic_1.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar-nav {
+	font-size: 0.76rem;
+}
+
+.font-weight-bold {
+	font-weight: 600 !important;
+}
+
+.text-hex {
+	color: #C271FF !important;
+	font-weight: 700 !important;
+}
+
+
+/* ===== Media queries ===== */
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+	.navbar-nav {
+		font-size: 0.9rem;
+	}
+
+	.navbar-nav .nav-link {
+		padding-bottom: 1rem;
+	}
+
+	button:focus {
+		outline: none;
+	}
+
+	.navbar-brand {
+		position: relative;
+		margin: 0 auto;
+		display: inline-grid;
+		justify-items: center;
+	}
+
+	.display-1 {
+		font-size: 5rem !important;
+	}
+}
