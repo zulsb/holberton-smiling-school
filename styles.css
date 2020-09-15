@@ -46,7 +46,7 @@ html {
 
 /** Links =========== */
 
-a:hover {
+a.nav-link:hover {
 	color: #C271FF !important;
 }
 
@@ -98,7 +98,7 @@ a:hover {
 
 @media (max-width: 768px) {
 	.carousel-inner {
-		padding: 0
+		padding: 0 4rem;
 	}
 }
 
