@@ -36,6 +36,14 @@ html {
 	font-size: 2rem;
 }
 
+.holberton_school-icon-arrow_3:before {
+	content: "\e902";
+}
+
+.holberton_school-icon-arrow_4:before {
+	content: "\e903";
+}
+
 /** Links =========== */
 
 a:hover {
@@ -81,10 +89,18 @@ a:hover {
 	font-weight: 700 !important;
 }
 
+.bg-hex {
+	background-color: #C271FF;
+}
 
-/* ===== Media queries ===== */
 
-@media (max-width: 768px) {}
+/* Media queries =========== */
+
+@media (max-width: 768px) {
+	.carousel-inner {
+		padding: 0
+	}
+}
 
 @media (max-width: 576px) {
 	.navbar-nav {
