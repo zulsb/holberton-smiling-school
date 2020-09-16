@@ -44,10 +44,6 @@ html {
 	content: "\e903";
 }
 
-.holberton_school-icon-star:before {
-	content: "\e914";
-}
-
 /** Links =========== */
 
 a.nav-link:hover {
@@ -101,13 +97,19 @@ a.nav-link:hover {
 	background-color: #C271FF;
 }
 
-
+.bg-hex-dark {
+	background-color: #071629;
+}
 
 /* Media queries =========== */
 
 @media (max-width: 768px) {
 	.carousel-inner {
 		padding: 0 4rem;
+	}
+
+	p.card-text.mb-0 {
+		margin: 0 3rem !important;
 	}
 }
 
@@ -133,5 +135,9 @@ a.nav-link:hover {
 
 	.display-1 {
 		font-size: 5rem !important;
+	}
+
+	p.card-text.mb-0 {
+		margin: 0 9rem !important;
 	}
 }
