@@ -44,6 +44,10 @@ html {
 	content: "\e903";
 }
 
+.holberton_school-icon-star:before {
+	content: "\e914";
+}
+
 /** Links =========== */
 
 a.nav-link:hover {
@@ -89,9 +93,14 @@ a.nav-link:hover {
 	font-weight: 700 !important;
 }
 
+.text-color {
+	color: #C271FF;
+}
+
 .bg-hex {
 	background-color: #C271FF;
 }
+
 
 
 /* Media queries =========== */
