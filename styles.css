@@ -44,6 +44,18 @@ html {
 	content: "\e903";
 }
 
+.holberton_school-icon-ic_facebook:before {
+	content: "\e908";
+}
+
+.holberton_school-icon-ic_instagram:before {
+	content: "\e90a";
+}
+
+.holberton_school-icon-ic_twitter:before {
+	content: "\e90f";
+}
+
 /** Links =========== */
 
 a.nav-link:hover {
@@ -108,7 +120,7 @@ a.nav-link:hover {
 		padding: 0 4rem;
 	}
 
-	p.card-text.mb-0 {
+	.text-respon {
 		margin: 0 3rem !important;
 	}
 }
@@ -137,7 +149,11 @@ a.nav-link:hover {
 		font-size: 5rem !important;
 	}
 
-	p.card-text.mb-0 {
+	.text-respon {
 		margin: 0 9rem !important;
+	}
+
+	.social-nav {
+		justify-content: center !important;
 	}
 }
