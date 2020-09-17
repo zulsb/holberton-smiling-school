@@ -58,8 +58,19 @@ html {
 
 /** Links =========== */
 
-a.nav-link:hover {
+a.nav-link:hover,
+a.nav-link.active,
+a.nav-link:focus {
 	color: #C271FF !important;
+}
+
+a.nav-link.active {
+	border-bottom: 2px solid #ffffff;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: relative;
+	right: 0;
 }
 
 /** Buttons =========== */
@@ -79,7 +90,7 @@ a.nav-link:hover {
 	opacity: 0.9 !important;
 }
 
-/** General =========== */
+/** Homepage =========== */
 
 .bg {
 	background-image: url("./images/pic_1.jpg");
@@ -113,6 +124,14 @@ a.nav-link:hover {
 	background-color: #071629;
 }
 
+/* Pricing page =========== */
+.bg-pricing {
+	background-image: url("./images/pic_2.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /* Media queries =========== */
 
 @media (max-width: 768px) {
@@ -132,7 +151,11 @@ a.nav-link:hover {
 
 	.navbar-nav .nav-link {
 		padding-bottom: 1rem;
-	}
+  }
+  
+  a.nav-link.active {
+    border-bottom: none;
+  }
 
 	button:focus {
 		outline: none;
