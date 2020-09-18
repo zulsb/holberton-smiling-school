@@ -145,6 +145,10 @@ tr.border-bottom {
 	border-bottom: 1px solid #dee2e64a !important;
 }
 
+.mw {
+	max-width: 470px;
+}
+
 /* Courses page =========== */
 
 .bg-courses {
