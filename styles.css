@@ -132,7 +132,7 @@ a.nav-link.active {
 
 .bg-pricing {
 	background-image: url("./images/pic_2.jpg");
-	background-position: center top;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
