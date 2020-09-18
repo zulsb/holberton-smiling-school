@@ -56,6 +56,10 @@ html {
 	content: "\e90f";
 }
 
+.holberton_school-icon-check:before {
+	content: "\e905";
+}
+
 /** Links =========== */
 
 a.nav-link:hover,
@@ -125,11 +129,20 @@ a.nav-link.active {
 }
 
 /* Pricing page =========== */
+
 .bg-pricing {
 	background-image: url("./images/pic_2.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.text-green {
+	color: #82D24F;
+}
+
+tr.border-bottom {
+	border-bottom: 1px solid #dee2e64a !important;
 }
 
 /* Media queries =========== */
@@ -151,11 +164,11 @@ a.nav-link.active {
 
 	.navbar-nav .nav-link {
 		padding-bottom: 1rem;
-  }
-  
-  a.nav-link.active {
-    border-bottom: none;
-  }
+	}
+
+	a.nav-link.active {
+		border-bottom: none;
+	}
 
 	button:focus {
 		outline: none;
