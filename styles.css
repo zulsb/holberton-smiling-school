@@ -145,6 +145,19 @@ tr.border-bottom {
 	border-bottom: 1px solid #dee2e64a !important;
 }
 
+/* Courses page =========== */
+
+.bg-courses {
+	background-image: url("./images/pic_3.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.coiny {
+	font-family: 'Coiny', sans-serif;
+}
+
 /* Media queries =========== */
 
 @media (max-width: 768px) {
