@@ -60,6 +60,10 @@ html {
 	content: "\e905";
 }
 
+.holberton_school-icon-search_1:before {
+	content: "\e912";
+}
+
 /** Links =========== */
 
 a.nav-link:hover,
@@ -160,6 +164,18 @@ tr.border-bottom {
 
 .coiny {
 	font-family: 'Coiny', sans-serif;
+}
+
+.bg-light {
+	background-color: #f8f9fa4f !important;
+}
+
+.custom-select {
+	background: url(images/down-arrow.png) no-repeat right .75rem center/0.7rem;
+}
+
+.form-control::placeholder {
+	color: #ffffff7a;
 }
 
 /* Media queries =========== */
