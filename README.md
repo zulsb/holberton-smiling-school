@@ -1,4 +1,4 @@
-![SmileSchool page](https://user-images.githubusercontent.com/7723544/93663901-af9e9000-fa30-11ea-9779-1110142df0f7.gif)
+![SmileSchool page](https://user-images.githubusercontent.com/7723544/93664004-479c7980-fa31-11ea-8100-703aa9b315bf.gif)
 
 ## Description
 
